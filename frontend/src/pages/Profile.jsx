@@ -4,7 +4,7 @@ import { FiEdit } from 'react-icons/fi';
 import { GoChevronLeft } from "react-icons/go";
 import { Link, useNavigate } from 'react-router-dom';
 import { UserContext } from '../../context/userContext';
-import avatar from '../assets/avatar.png'
+import avatar from '../assets/Avatar.png'
 
 const Profile = () => {
   const { user } = useContext(UserContext);
